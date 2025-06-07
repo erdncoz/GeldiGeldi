@@ -1,0 +1,32 @@
+name: geldi_geldi_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  google_maps_flutter_web: ^0.5.12
+  animate_do: ^3.0.2
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+
+dependency_overrides:
+  google_maps_flutter_platform_interface: ^2.11.1
+  google_maps_flutter_web: ^0.5.4+2
+
